@@ -1,0 +1,1813 @@
+^GDAXI
+^TECDAX
+^MDAXI
+^SDAXI
+^STOXX50E
+^BSESN
+ADS.DE
+ADV.DE
+AIXA.DE
+AMZ.DE
+AMD.SG
+APC.DE
+BC8.DE
+AFX.DE
+CWC.DE
+COM.DE
+DB1.DE
+DPW.DE
+DTE.DE
+DLG.DE
+DRW3.DE
+DRI.DE
+EUCA.DE
+FIE.DE
+GXI.DE
+GIL.DE
+GGQ1.DE
+HNR1.DE
+HHFA.DE
+IBM.DE
+IFX.DE
+INL.DE
+JEN.DE
+KD8.DE
+KBC.DE
+LPK.DE
+MDN.DE
+MEO.DE
+MSF.DE
+MUV2.DE
+NOA3.DE
+NDX1.DE
+ORC.DE
+OSR.DE
+PFV.DE
+PSM.DE
+PSAN.DE
+PUM.DE
+QSC.DE
+SAP.DE
+SSU.DE
+SRT3.DE
+SNG.DE
+SZZ.DE
+SOW.DE
+SWV.DE
+SMHN.SG
+VWS.DE
+WIN.DE
+WDI.DE
+New Security: ^GDAXI
+
+
+
+Anzahl Werte: 257
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51896 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^GDAXI
+aktueller Preis: 11.36
+Kleinster Wert Datum: Fri Apr 19 00:00:00 CEST 2013 Wert:7459.96
+Größter Wert Datum: Fri Jan 17 00:00:00 CET 2014 Wert:9742.96
+Maximum: 9742.96
+inc=7.609999999999997
+UPTREND
+Trying to find uptrend line, start 4 = Fri Apr 19 00:00:00 CEST 2013
+Berührung bei 50
+Datum: Mon Jun 24 00:00:00 CEST 2013, Open: 7776.88, High: 7823.84, Low: 7655.83, Close: 7692.45, Relevant: 7692.45
+Trying to find uptrend line, start 50 = Mon Jun 24 00:00:00 CEST 2013
+Berührung bei 233
+Datum: Thu Mar 13 00:00:00 CET 2014, Open: 9200.12, High: 9226.96, Low: 9017.35, Close: 9017.79, Relevant: 9017.79
+-----------TREND--------------
+von: Mon Jun 24 00:00:00 CEST 2013 7692.45
+bis: Thu Mar 13 00:00:00 CET 2014 9017.79
+-----------TREND--------------
+X: 50, Y: 7692.45, Steigung: 7.269253731343261, Berührung: 233
+New Security: ^TECDAX
+
+
+
+Anzahl Werte: 253
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51893 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^TECDAX
+aktueller Preis: 11.36
+Kleinster Wert Datum: Thu Apr 18 00:00:00 CEST 2013 Wert:896.63
+Größter Wert Datum: Thu Mar 06 00:00:00 CET 2014 Wert:1292.52
+Maximum: 1292.52
+inc=1.3196333333333332
+UPTREND
+Trying to find uptrend line, start 3 = Thu Apr 18 00:00:00 CEST 2013
+Berührung bei 49
+Datum: Mon Jun 24 00:00:00 CEST 2013, Open: 898.31, High: 898.31, Low: 898.31, Close: 898.31, Relevant: 898.31
+Trying to find uptrend line, start 49 = Mon Jun 24 00:00:00 CEST 2013
+Berührung bei 241
+Datum: Mon Mar 24 00:00:00 CET 2014, Open: 1206.25, High: 1206.25, Low: 1206.25, Close: 1206.25, Relevant: 1206.25
+-----------TREND--------------
+von: Mon Jun 24 00:00:00 CEST 2013 898.31
+bis: Mon Mar 24 00:00:00 CET 2014 1206.25
+-----------TREND--------------
+X: 49, Y: 898.31, Steigung: 1.6062203703703761, Berührung: 241
+New Security: ^MDAXI
+
+
+
+Anzahl Werte: 253
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51893 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^MDAXI
+aktueller Preis: 11.36
+Kleinster Wert Datum: Thu Apr 18 00:00:00 CEST 2013 Wert:12970.7
+Größter Wert Datum: Fri Jan 17 00:00:00 CET 2014 Wert:16946.6
+Maximum: 16946.6
+inc=13.252999999999993
+UPTREND
+Trying to find uptrend line, start 3 = Thu Apr 18 00:00:00 CEST 2013
+Berührung bei 49
+Datum: Mon Jun 24 00:00:00 CEST 2013, Open: 13263.4, High: 13263.4, Low: 13263.4, Close: 13263.4, Relevant: 13263.4
+Trying to find uptrend line, start 49 = Mon Jun 24 00:00:00 CEST 2013
+Berührung bei 241
+Datum: Mon Mar 24 00:00:00 CET 2014, Open: 16080.7, High: 16080.7, Low: 16080.7, Close: 16080.7, Relevant: 16080.7
+-----------TREND--------------
+von: Mon Jun 24 00:00:00 CEST 2013 13263.4
+bis: Mon Mar 24 00:00:00 CET 2014 16080.7
+-----------TREND--------------
+X: 49, Y: 13263.4, Steigung: 14.725555555555585, Berührung: 241
+New Security: ^SDAXI
+
+
+
+Anzahl Werte: 256
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51893 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^SDAXI
+aktueller Preis: 11.36
+Kleinster Wert Datum: Wed Apr 17 00:00:00 CEST 2013 Wert:5572.89
+Größter Wert Datum: Fri Apr 04 00:00:00 CEST 2014 Wert:7278.96
+Maximum: 7278.96
+inc=5.686899999999999
+UPTREND
+Trying to find uptrend line, start 2 = Wed Apr 17 00:00:00 CEST 2013
+Berührung bei 49
+Datum: Mon Jun 24 00:00:00 CEST 2013, Open: 5738.39, High: 5744.87, Low: 5557.15, Close: 5574.41, Relevant: 5574.41
+Trying to find uptrend line, start 49 = Mon Jun 24 00:00:00 CEST 2013
+Berührung bei 233
+Datum: Fri Mar 14 00:00:00 CET 2014, Open: 6915.37, High: 6915.37, Low: 6813.5, Close: 6885.43, Relevant: 6885.43
+-----------TREND--------------
+von: Mon Jun 24 00:00:00 CEST 2013 5574.41
+bis: Fri Mar 14 00:00:00 CET 2014 6885.43
+-----------TREND--------------
+X: 49, Y: 5574.41, Steigung: 7.129844776119389, Berührung: 233
+New Security: ^STOXX50E
+
+
+
+Anzahl Werte: 250
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51896 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^STOXX50E
+aktueller Preis: 11.36
+Kleinster Wert Datum: Mon Jun 24 00:00:00 CEST 2013 Wert:2511.83
+Größter Wert Datum: Fri Apr 04 00:00:00 CEST 2014 Wert:3230.33
+Maximum: 3230.33
+inc=2.395
+UPTREND
+Trying to find uptrend line, start 50 = Mon Jun 24 00:00:00 CEST 2013
+Berührung bei 235
+Datum: Fri Mar 14 00:00:00 CET 2014, Open: 3004.64, High: 3004.64, Low: 3004.64, Close: 3004.64, Relevant: 3004.64
+-----------TREND--------------
+von: Mon Jun 24 00:00:00 CEST 2013 2511.83
+bis: Fri Mar 14 00:00:00 CET 2014 3004.64
+-----------TREND--------------
+X: 50, Y: 2511.83, Steigung: 2.666597938144322, Berührung: 235
+New Security: ^BSESN
+
+
+
+Anzahl Werte: 247
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51896 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ^BSESN
+aktueller Preis: 11.36
+Kleinster Wert Datum: Wed Aug 21 00:00:00 CEST 2013 Wert:17905.91
+Größter Wert Datum: Thu Apr 10 00:00:00 CEST 2014 Wert:22715.33
+Maximum: 22715.33
+inc=16.031400000000005
+UPTREND
+Trying to find uptrend line, start 87 = Wed Aug 21 00:00:00 CEST 2013
+Berührung bei 207
+Datum: Thu Feb 13 00:00:00 CET 2014, Open: 20478.67, High: 20503.86, Low: 20164.67, Close: 20193.35, Relevant: 20193.35
+-----------TREND--------------
+von: Wed Aug 21 00:00:00 CEST 2013 17905.91
+bis: Thu Feb 13 00:00:00 CET 2014 20193.35
+-----------TREND--------------
+X: 87, Y: 17905.91, Steigung: 19.154399999999974, Berührung: 207
+New Security: ADS.DE
+
+
+
+Anzahl Werte: 262
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+parsed...
+AIXTRON SE Namens-Aktien o.N. - A0WMPJ - Aktien | comdirect.de 
+a.troublePostBoxLink, a:active.troublePostBoxLink, a:visited.troublePostBoxLink {
+  color : #cc0000;
+  text-decoration: underline;
+}
+#troublePostBox {
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+LoginMusterdepotKontaktÜber uns
+                              PersÃ¶nlicher Bereich
+                         
+                             Informer
+                        
+                              Konto & Geldanlage
+                         
+                              Depot & Wertpapiere
+                         
+                              Vorsorge & Finanzierung
+                         
+                              Hilfe & Service
+                         
+                      Meine Startseite
+                  
+                      Märkte
+                  
+                              Auf einen Blick
+                            
+                              MÃ¤rkte & Renditen
+                            
+                              Rohstoffe
+                            
+                              Zinsen
+                            
+                              Indizes
+                            
+                              Branchen
+                            
+                              WÃ¤hrungen
+                             
+                      Aktien
+                  
+                              Auf einen Blick
+                            
+                              Aktien-Selector
+                            
+                              Top-/Flop Listen
+                            
+                              Regionen
+                            
+                              IPOs
+                            
+                              Experten-Chartanalyse
+                            
+                              Aktiensignale
+                            
+                              Research
+                            
+                      Fonds
+                  
+                              Auf einen Blick
+                            
+                              Fonds-Selector
+                            
+                              Top-Performer
+                            
+                              Neue Fonds
+                            
+                              Fondsgesellschaften
+                            
+                              Rating-VerÃ¤nderungen
+                            
+                      ETFs
+                  
+                              Auf einen Blick
+                            
+                              ETF-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neue ETFs
+                            
+                              Region | Typ | Branche
+                              
+                      Optionsscheine
+                  
+                              Auf einen Blick
+                            
+                              Optionsschein-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              MarktÃ¼bersicht OS
+                            
+                              Emittenten
+                             
+                      Zertifikate
+                  
+                              Auf einen Blick
+                            
+                              Zertifikate-Selector
+                            
+                              Top-Performer
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Alle Zertifikatetypen
+                            
+                              Emittenten
+                             
+                      Anleihen
+                  
+                              Auf einen Blick
+                            
+                              Anleihen-Selector
+                            
+                              Top-Renditen
+                            
+                              Meistgehandelt
+                            
+                              Neuemissionen
+                            
+                              Renditen Vergleich
+                              
+                      Tools
+                  
+                              Auf einen Blick
+                            
+                              VermÃ¶gensrechner
+                            
+                              WÃ¤hrungsrechner
+                            
+                              TraderMatrix
+                            
+                              Chart Analyzer
+                            
+                              Market Map
+                            
+                              Indizes
+                            
+                              Anleihen-Analyzer
+                            
+                              Optionsscheinrechner
+                            
+                              Profit Selector
+                            
+                              Scenario Selector
+                            
+                              Risk Return Map
+                            
+                              Fonds-Analyzer
+                            
+                              BÃ¶rsenTicker
+                            
+                              BÃ¶rsenkalender
+                            
+                              BÃ¶rsenlexikon
+                            
+                      News
+                  
+                              Auf einen Blick
+                            
+                              News-Selector
+                            
+                              Alle News
+                            
+                              Top News
+                            
+                              24 Stunden-News
+                            
+                              Wirtschaft & Politik
+                            
+                              Aktuelles zu Fonds
+                            
+                              Ad Hocs
+                            
+                              Rohstoffe
+                            
+                              BÃ¶rsenkalender
+                            Home
+                    >
+                                                            Informer
+                    >
+                                            AktienAIXTRON SE Namens-Aktien o.N.16.04.14  16:36:11 Uhr11,36 EUR-0,22%  [-0,025]KGVe:--DIVe:0,00%
+    
+        Typ: Aktie  
+    
+       WKN: A0WMPJBörse: LT Lang & SchwarzLT CommerzbankXetraTradegateStuttgartFrankfurtHamburgMÃ¼nchenHannoverDÃ¼sseldorfBerlinNasdaq other OTCLondon Security ExchangeRealtimeKauf/VerkaufLiveTradingÜbernehmen in ...MusterdepotChart AnalyzerTraderMatrixIn Liste blättern--AnzeigenÜbersichtKennzahlenFirmenportraitAnalyseChartNews5 Jahre6 MonateIntraday10 TageKursdatenBörseXetraAktuell11,36 EURZeit16.04.14 16:36Diff. Vortag-0,22%Tages-Vol.5,56 Mio.Gehandelte Stück490.533Geld11,36Brief11,38Zeit16.04.14 16:36Spread0,18%Geld Stk.652Brief Stk.3.018Schluss Vortag11,385Eröffnung11,425Hoch11,48Tief11,21552W Hoch13,8952W Tief9,542Split--KursdatenAnalyseJahresbilanz (2013)
+                Umsatz: 182,86 Mio. EURBruttorendite: -52,07%Eigenkapitalquote: 82,64%Bilanzprognose
+                    (2014e)
+                KGVe: --DIVe: 0,00%
+                        Weitere Analysen
+                    Als comdirect Kunde erhalten Sie Einblick in exklusive
+                    Analystenbewertungen, Chartanalysen und Bilanzprognosen von
+                    Unternehmen.
+                LoginDemoversion fÃ¼r Nicht-KundenHandelsplÃ¤tzeLiveTradingGeldBriefDatumZeitGestellte KurseLT Lang & Schwarz11,38611,39416.04.1416:501.007 LT Commerzbank11,3811,3916.04.1416:51893 BörseAktuellDatumZeitTages.-Vol.Anzahl KurseXetra11,3616.04.1416:365,56 Mio.856 Tradegate11,33616.04.1415:4946.629,1414 Stuttgart11,3616.04.1416:155.408,4012 Frankfurt11,2416.04.1414:5710.705,595 Hamburg11,22516.04.1413:035.612,502 MÃ¼nchen11,3716.04.1410:195.685,002 Hannover11,40516.04.1408:100,001 DÃ¼sseldorf11,4016.04.1408:070,001 Berlin11,36516.04.1408:000,001 Nasdaq other OTC15,89227.03.1415:222.860,562 London Security Exchange11,3916.04.1409:29--1 Zugehörige WerteBeiträge im Forum1Indizes mit diesem WertFonds mit diesem WertBranchenfilter einblendenZertifikateOptionsscheineStammdatenWertpapiertypAktieMarktsegmentGeregelter MarktBrancheHalbleiterindustrieGeschäftsjahr31.12.Marktkapital.1,28 Mrd. EURStreubesitz63,32%Nennwert1,00 EURStücke112,62 Mio.SymbolAIXAISINDE000A0WMPJ6WKNA0WMPJBörsenkalender für AIXTRON SEMehrNews
+                    15:29
+                DGAP-Stimmrechte: AIXTRON SE (deutsch)
+                    Di, 15.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 15.04.2014
+                    Di, 15.04.14
+                ANALYSE-FLASH: Berenberg belÃ¤sst Aixtron auf 'Hold' - Ziel 11 Euro
+                    Mo, 14.04.14
+                dpa-AFX Ãœberblick: ANALYSTEN-EINSTUFUNGEN vom 14.04.2014Mehr NewsHinweise zu Chart- und PerformanceangabenHinweise zu Chart- und Performanceangaben
+            © 1997-2014 comdirect bank AG
+            Bitte beachten Sie die Nutzungsbedingungen
+            Implemented and powered by Interactive Data Managed Solutions
+            Mit  markierte Kurse werden in Realtime angezeigt.
+            Mit  markierte Kurse werden nur für Kunden in Realtime angezeigt.
+            Alle anderen Kursdaten der deutschen / internationalen Börsen sind 15 bzw. 20 Min. verzögert.
+        Hilfe und InfosPersönlicher BereichFinanzüberblickKonto-UmsätzeDepotübersichtMusterdepotPostBoxÜberweisungenInlandsorderKombinationsorderLiveTradingFondshandelOrderbuchInformerMarktüberblickMeine StartseiteNewsAktienFondsZertifikateOptionsscheineAnleihenIndizesBörsen-ToolsProdukteGirokontoTagesgeld PLUSLaufzeitkontoFestgeldkontofest & fondsDepotWertpapierangebotAnlageberatung PLUSBaufinanzierung PLUSServicesFormulareSicherheitEinlagensicherungKunden werben KundenFragen & AntwortenForumSitemapSo erreichen Sie unsKontaktformularTelefonischeKundenbetreuung: 04106 - 708 25 00Telefonnummer fürInteressenten:04106 - 70 88Hier finden Sie uns Facebook Twitter YouTube&nbspMobile BankingAppsMobile WebsiteImpressumDatenschutzNutzungsbedingungenAGBInvestor RelationsPresseKarriere
+thats it
+Got current value from 1st URL
+COMDIRECT price:11,36 EUR
+Price: 11,36 EUR
+Trying: ADS.DE
+aktueller Preis: 11.36
+Kleinster Wert Datum: Mon Mar 24 00:00:00 CET 2014 Wert:75.34
+Größter Wert Datum: Wed Jan 22 00:00:00 CET 2014 Wert:92.92
+Maximum: 92.92
+inc=0.05859999999999999
+UPTREND
+Trying to find uptrend line, start 245 = Mon Mar 24 00:00:00 CET 2014
+COULD NOT FIND ANY TREND
+New Security: ADV.DE
+
+
+
+Anzahl Werte: 262
+
+
+
+getting current price...
+http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION=24627359
+Batchvorgang abbrechen (J/N)? 
