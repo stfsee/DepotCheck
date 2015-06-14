@@ -12,7 +12,10 @@
 
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat
-import org.cyberneko.html.parsers.SAXParser;
+import org.cyberneko.html.parsers.SAXParser
+
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter;
 
 public class DepotCheck {
 
@@ -25,6 +28,8 @@ public class DepotCheck {
 	int INCREMENTS = 300
 
 	int relevant = StockValue.CLOSE
+
+	private static String HISTORICAL_URL ="http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
 
 	ArrayList<OutputInfo> upTrendNears = new ArrayList<OutputInfo>()
 	ArrayList<OutputInfo> upTrendNotNears = new ArrayList<OutputInfo>()
@@ -229,6 +234,59 @@ public class DepotCheck {
         // http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=11.06.2010&ID_NOTATION=3240907&mask=true&INTERVALL=16&OFFSET=2&modal=false&DATETIME_TZ_END_RANGE_FORMATED=11.06.2015
         // change offset until no data
         // ignore header
+        // Daten lesen:
+        // println 'http://www.google.com'.toURL().text
+        // todo Datum formatieren und Startdate, Enddate errechnen und einsetzen
+        // über Offset iterieren
+
+		for (Security security : securities) {
+            String urlWithOffset = HISTORICAL_URL.replace("#notation", security.getComdNotationId()+"")
+            LocalDate now = LocalDate.now()
+            DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy")
+            println "Java8 Date formatting: " + stdFormat.format(now);
+            LocalDate fiveYearsAgo = now.minusYears(5);
+            urlWithOffset = urlWithOffset.replace("#startDate", stdFormat.format(fiveYearsAgo))
+            urlWithOffset = urlWithOffset.replace("#endDate", stdFormat.format(now))
+            int offset = 0
+            boolean running = true
+            while (running) {
+                String url = urlWithOffset.replace("#offset", Integer.toString(offset))
+                String data;
+                try {
+                    data = url.toURL().text
+                }
+                catch(FileNotFoundException ex)
+                {
+                    running = false
+                }
+
+                if (!running)
+                {
+                    break
+                }
+                String[] lines = data.split("\n")
+                for (int i = 0; i < lines.length; i++) {
+                    if (lines[i].count(";") < 5 || lines[i].length() > 5 && !lines[i].substring(0, 1).isNumber()) {
+                        continue;
+                    }
+                    println(i + " " + lines[i])
+                    String[] dataset = lines[i].split(";")
+                    String date = dataset[0];
+                    Float close = Float.parseFloat(dataset[4].replaceAll(",", "."));
+
+                    // lines start this way:
+                    //0
+                    //1 ISHARES TECDAX (DE)(WKN: 593397 Börse: LT Lang & Schwarz)
+                    //2
+                    //3 Datum;Eröffnung;Hoch;Tief;Schluss;Volumen
+                    //4 13.02.2015;14,384;14,389;14,192;14,235;0,00
+
+                    println(i + " " + date + ":" + close)
+                    security.historicalData.put(date, close);
+                }
+                offset++
+            }
+        }
     }
 
 	void importStocks(ArrayList<Security> stocks, File stocksFile){
@@ -506,7 +564,7 @@ public class DepotCheck {
 		println "Program started"
 
 		ArrayList<Security> securities = new ArrayList<Security>()
-		File depositFile = new File("C:\\Users\\seeste\\workspace_groovy\\DepotCheck\\src\\depot.csv")
+		File depositFile = new File(".\\src\\depot.csv")
 		depotCheck.importStocks(securities, depositFile)
 
         depotCheck.importHistoricalData securities

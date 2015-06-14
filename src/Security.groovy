@@ -4,6 +4,7 @@ class Security {
 	String name;
     Float buyPrice;
 	String buyDate;
+	HashMap<String, Float> historicalData;
 	
 	int comdNotationId;
 
@@ -15,5 +16,6 @@ class Security {
 		this.buyDate = value[3].trim()
         this.buyPrice = Float.parseFloat(value[4].trim().replaceAll(",","."))
 		this.comdNotationId = Integer.parseInt(value[5].trim())
+		historicalData = new HashMap<String, Float>();
 	}
 }
