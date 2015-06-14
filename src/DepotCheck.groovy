@@ -29,7 +29,9 @@ public class DepotCheck {
 
 	int relevant = StockValue.CLOSE
 
-	private static String HISTORICAL_URL ="http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
+    DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("yyyy.MM.dd")
+
+    private static String HISTORICAL_URL ="http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
 
 	ArrayList<OutputInfo> upTrendNears = new ArrayList<OutputInfo>()
 	ArrayList<OutputInfo> upTrendNotNears = new ArrayList<OutputInfo>()
@@ -242,8 +244,7 @@ public class DepotCheck {
 		for (Security security : securities) {
             String urlWithOffset = HISTORICAL_URL.replace("#notation", security.getComdNotationId()+"")
             LocalDate now = LocalDate.now()
-            DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy")
-            println "Java8 Date formatting: " + stdFormat.format(now);
+             println "Java8 Date formatting: " + stdFormat.format(now);
             LocalDate fiveYearsAgo = now.minusYears(5);
             urlWithOffset = urlWithOffset.replace("#startDate", stdFormat.format(fiveYearsAgo))
             urlWithOffset = urlWithOffset.replace("#endDate", stdFormat.format(now))
