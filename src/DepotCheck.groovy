@@ -29,7 +29,8 @@ public class DepotCheck {
 
 	int relevant = StockValue.CLOSE
 
-    DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("yyyy.MM.dd")
+    public static DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy")
+    public static DateTimeFormatter sortFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd")
 
     private static String HISTORICAL_URL ="http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
 
@@ -272,7 +273,7 @@ public class DepotCheck {
                     }
                     println(i + " " + lines[i])
                     String[] dataset = lines[i].split(";")
-                    String date = dataset[0];
+                    String dateString = dataset[0];
                     Float close = Float.parseFloat(dataset[4].replaceAll(",", "."));
 
                     // lines start this way:
@@ -282,8 +283,11 @@ public class DepotCheck {
                     //3 Datum;Eröffnung;Hoch;Tief;Schluss;Volumen
                     //4 13.02.2015;14,384;14,389;14,192;14,235;0,00
 
-                    println(i + " " + date + ":" + close)
-                    security.historicalData.put(date, close);
+                    println(i + " " + dateString + ":" + close)
+                    LocalDate date = LocalDate.parse(dateString,stdFormat);
+                    String sortDate = sortFormat.format(date)
+                    security.historicalData.put(sortDate, close);
+                    security.firstDate = sortFormat.format(date);
                 }
                 offset++
             }
@@ -573,6 +577,10 @@ public class DepotCheck {
         securities.each {
 			println it.wkn+" "+it.name+ "Kurs: "+ depotCheck.fetchCurrentPrice(it.comdNotationId+"")
 		}
+
+        securities.each{
+            println it.wkn+" "+it.name+" 2012-11-27: "+ it.notationFrom(LocalDate.parse("2012-11-27",DepotCheck.sortFormat))
+        }
 
 		println "program finished"
 
