@@ -21,6 +21,7 @@ public class DepotCheck {
 
 	final int IGNORE_LAST_DAYS = 5
 	final int DAYS_TO_NEXT_MIN = 2
+    static final String DEL =";"
 	double NEAR = 0.015
 	int MONTH = 6
 	int MIN_DISTANCE = 90
@@ -32,7 +33,7 @@ public class DepotCheck {
     public static DateTimeFormatter stdFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy")
     public static DateTimeFormatter sortFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd")
 
-    private static String HISTORICAL_URL ="http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
+    private static String HISTORICAL_URL ="https://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=#startDate&ID_NOTATION=#notation&mask=true&INTERVALL=16&OFFSET=#offset&modal=false&DATETIME_TZ_END_RANGE_FORMATED=#endDate"
 
 	ArrayList<OutputInfo> upTrendNears = new ArrayList<OutputInfo>()
 	ArrayList<OutputInfo> upTrendNotNears = new ArrayList<OutputInfo>()
@@ -55,7 +56,7 @@ public class DepotCheck {
 		def currentPriceUrl =""
 		println "getting current price..."
 		def price = ""
-			currentPriceUrl = "http://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION="+comdNotationId
+			currentPriceUrl = "https://www.comdirect.de/inf/aktien/detail/uebersicht.html?INDEX_FILTER=true&ID_NOTATION="+comdNotationId
 	                  
 			println currentPriceUrl
 			html = new XmlSlurper(new SAXParser()).parse(currentPriceUrl)
@@ -105,7 +106,7 @@ public class DepotCheck {
 		int e = today.getAt(Calendar.DAY_OF_MONTH)
 		int f = today.getAt(Calendar.YEAR)
 
-		String url = "http://ichart.finance.yahoo.com/table.csv?s="+symbol.toUpperCase()+"&a=$a&b=$b&c=$c&d=$d&e=$e&f=$f&g=d&ignore=.csv"
+		String url = "https://ichart.finance.yahoo.com/table.csv?s="+symbol.toUpperCase()+"&a=$a&b=$b&c=$c&d=$d&e=$e&f=$f&g=d&ignore=.csv"
 		return url
 	}
 
@@ -252,6 +253,7 @@ public class DepotCheck {
             int offset = 0
             boolean running = true
             while (running) {
+                println "offset: "+offset +" WKN:"+security.wkn+" "+security.name
                 String url = urlWithOffset.replace("#offset", Integer.toString(offset))
                 String data;
                 try {
@@ -575,18 +577,54 @@ public class DepotCheck {
         depotCheck.importHistoricalData securities
 
         securities.each {
-			println it.wkn+" "+it.name+ "Kurs: "+ depotCheck.fetchCurrentPrice(it.comdNotationId+"")
+			//println it.wkn+" "+it.name+ "Kurs: "+ depotCheck.fetchCurrentPrice(it.comdNotationId+"")
 		}
 
         securities.each{
             println it.wkn+" "+it.name+" 2012-11-27: "+ it.notationFrom(LocalDate.parse("2012-11-27",DepotCheck.sortFormat))
         }
 
-		println "program finished"
+        File outputFile = new File('.\\depotcheck.csv')
+        outputFile.write("Name"+DEL+"wkn"+DEL+"Depot"+DEL+"buyDate"+DEL+"Kaufkurs"+DEL+"Kurs heute"+DEL+"Perf 3Y"+DEL+"Perf 3M"+DEL+"Perf 1M;")
+        outputFile.append("\n");
+
+        LocalDate now = LocalDate.now()
+
+
+        securities.each {
+            //TODO: Zahlen formatieren: 42,99
+            println "fetch Current:"
+            double todaysPrice = depotCheck.fetchCurrentPrice(it.comdNotationId+"")
+            println "todaysPrice "+todaysPrice
+            println "fetch 3Y:"
+            Double threeYearsAgo = it.notationFrom(now.minusYears(3))
+            if (threeYearsAgo == 0.0d)
+                threeYearsAgo = 0.1d
+            println "threeYearsAgo "+threeYearsAgo
+            double ThreeYPerf = ((todaysPrice / threeYearsAgo)-1) * 100
+            println "fetch 3M"
+            Double threeMonthAgo = it.notationFrom(now.minusMonths(3))
+            if (threeMonthAgo == 0.0d)
+                threeMonthAgo = 0.1d
+            println "threeMonthAgo "+threeMonthAgo
+            double ThreeMPerf = ((todaysPrice / threeMonthAgo)-1)*100
+            println "3M %:"+ThreeMPerf
+            println "fetch 1M"
+            Double oneMonthAgo = it.notationFrom(now.minusMonths(1))
+            if (oneMonthAgo == 0)
+                oneMonthAgo = 0.1d
+            println "oneMonthAgo" + oneMonthAgo
+            double OneMPerf = ((todaysPrice / oneMonthAgo)-1)*100
+            println "output"
+            outputFile.append(it.name+DEL+"'"+it.wkn+DEL+it.deposit+DEL+it.buyDate+DEL+it.buyPrice+DEL+todaysPrice+DEL+ThreeYPerf+DEL+ThreeMPerf+DEL+OneMPerf)
+            outputFile.append("\n")
+        }
+
+        println "program finished"
 
 		return;
 
-		File outputFile = new File('C:\\Users\\seeste\\workspace_groovy\\DepotCheck\\src\\depotcheck.html')
+		//File outputFile = new File('.\\depotcheck.html')
 		String today = depotCheck.formattedDateTime(new Date())
 
 		for (int i = 0; i < securities.size(); i++) {

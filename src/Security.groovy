@@ -26,16 +26,16 @@ class Security {
         String thenString = DepotCheck.sortFormat.format(then)
         if (thenString < firstDate)
             return 0.0f
-        float returnValue = historicalData.get(thenString)
-        while (returnValue==0.0f)
+        Float returnValue = historicalData.get(thenString)
+        while (returnValue==null)
         {
-            then.minusDays(1)
+            then = then.minusDays(1)
             thenString = DepotCheck.sortFormat.format(then)
             if (thenString < firstDate)
                 return 0.0f
             returnValue = historicalData.get(thenString)
         }
-        return returnValue
+        return returnValue.floatValue()
     }
 
 
