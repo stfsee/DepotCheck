@@ -1,8 +1,16 @@
 /**
+* ToDo:
+ * OK 1. Performance seit Kauf ergänzen
+ * 2. absoluten G/V ergänzen
+ * OK 3. Kauftag ergänzen
+ * 4. Alter ergänzen
+ * 5. Ausgabe aufräumen, Zahlenformat nicht 10stellig, nur soviele Stellen, wie nötig
+ * 6. Ausgabe alternativ als HTML-Tabelle
+ * 7. Link auf WP bei comdirect anhängen
 * Auf http://www.finanzen.net/kurse/kurse_historisch.asp gibt es bessere historische Kurse, die enden nicht drei Tage vorher!
 * 
 * Requirements:
-* parallel zu src werden diese Files benï¿½tigt:
+* parallel zu src werden diese Files benötigt:
 * css/theme.blue.css
 * lib/jquery-2.0.3.min.js
 * lib/jquery.tablesorter.min.js
@@ -236,12 +244,6 @@ public class DepotCheck {
     void importHistoricalData(ArrayList<Security> securities)
     {    // read from:
         // http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=11.06.2010&ID_NOTATION=3240907&mask=true&INTERVALL=16&OFFSET=2&modal=false&DATETIME_TZ_END_RANGE_FORMATED=11.06.2015
-        // change offset until no data
-        // ignore header
-        // Daten lesen:
-        // println 'http://www.google.com'.toURL().text
-        // todo Datum formatieren und Startdate, Enddate errechnen und einsetzen
-        // über Offset iterieren
 
 		for (Security security : securities) {
             String urlWithOffset = HISTORICAL_URL.replace("#notation", security.getComdNotationId()+"")
@@ -558,11 +560,16 @@ public class DepotCheck {
 		}
 	}
 
+    static String formatNumber(double f)
+    {
+        return String.format(Locale.GERMAN, "%.2f", f)
+    }
+
 
 	public static void main(String[] args){
 		DepotCheck depotCheck = new DepotCheck()
 
-		if (args.length == 1 && args[0].equals("help")){
+        if (args.length == 1 && args[0].equals("help")){
 			println "groovy DepotCheck.groovy"
 			println "erzeugt depotcheck.html"
 			return
@@ -585,14 +592,13 @@ public class DepotCheck {
         }
 
         File outputFile = new File('.\\depotcheck.csv')
-        outputFile.write("Name"+DEL+"wkn"+DEL+"Depot"+DEL+"buyDate"+DEL+"Kaufkurs"+DEL+"Kurs heute"+DEL+"Perf 3Y"+DEL+"Perf 3M"+DEL+"Perf 1M;")
+        outputFile.write("Name"+DEL+"wkn"+DEL+"Depot"+DEL+"buyDate"+DEL+"Kaufkurs"+DEL+"Kurs heute"+DEL+"Perf 3Y"+DEL+"Perf 3M"+DEL+"Perf 1M"+DEL+"Perf since buy")
         outputFile.append("\n");
 
         LocalDate now = LocalDate.now()
 
 
         securities.each {
-            //TODO: Zahlen formatieren: 42,99
             println "fetch Current:"
             double todaysPrice = depotCheck.fetchCurrentPrice(it.comdNotationId+"")
             println "todaysPrice "+todaysPrice
@@ -610,13 +616,16 @@ public class DepotCheck {
             double ThreeMPerf = ((todaysPrice / threeMonthAgo)-1)*100
             println "3M %:"+ThreeMPerf
             println "fetch 1M"
+            //String tmp = printf(Locale.GERMAN, "%-10.2f", ThreeMPerf)
             Double oneMonthAgo = it.notationFrom(now.minusMonths(1))
             if (oneMonthAgo == 0)
                 oneMonthAgo = 0.1d
             println "oneMonthAgo" + oneMonthAgo
             double OneMPerf = ((todaysPrice / oneMonthAgo)-1)*100
+			println "fetch since buy"
+			double perfSinceBuy = ((todaysPrice / it.buyPrice)-1)*100
             println "output"
-            outputFile.append(it.name+DEL+"'"+it.wkn+DEL+it.deposit+DEL+it.buyDate+DEL+it.buyPrice+DEL+todaysPrice+DEL+ThreeYPerf+DEL+ThreeMPerf+DEL+OneMPerf)
+            outputFile.append(it.name+DEL+"'"+it.wkn+"'"+DEL+it.deposit+DEL+it.buyDate+DEL+formatNumber(it.buyPrice)+DEL+formatNumber(todaysPrice)+DEL+formatNumber(ThreeYPerf)+DEL+formatNumber(ThreeMPerf)+DEL+formatNumber(OneMPerf)+DEL+formatNumber(perfSinceBuy))
             outputFile.append("\n")
         }
 

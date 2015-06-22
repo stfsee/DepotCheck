@@ -1,4 +1,5 @@
 import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 class Security {
 	String wkn;
@@ -19,6 +20,7 @@ class Security {
 		this.buyDate = value[3].trim()
         this.buyPrice = Float.parseFloat(value[4].trim().replaceAll(",","."))
 		this.comdNotationId = Integer.parseInt(value[5].trim())
+        //2015-12-22, 3.14159
 		historicalData = new HashMap<String, Float>();
 	}
 
@@ -36,6 +38,17 @@ class Security {
             returnValue = historicalData.get(thenString)
         }
         return returnValue.floatValue()
+    }
+
+    float notationForm(String dateString){
+        LocalDate date;
+        if (dateString.contains("-"))
+            date = new LocalDate(dateString);
+        if (dateString.contains(".")) {
+            final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+            date = LocalDate.parse(dateString, dtf)
+        }
+        return notationFrom(date)
     }
 
 
