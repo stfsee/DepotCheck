@@ -1,16 +1,16 @@
 /**
 * ToDo:
- * OK 1. Performance seit Kauf ergänzen
- * 2. absoluten G/V ergänzen
- * OK 3. Kauftag ergänzen
- * 4. Alter ergänzen
- * 5. Ausgabe aufräumen, Zahlenformat nicht 10stellig, nur soviele Stellen, wie nötig
+ * OK 1. Performance seit Kauf ergï¿½nzen
+ * OK 2. absoluten G/V ergï¿½nzen
+ * OK 3. Kauftag ergï¿½nzen
+ * 4. Alter ergï¿½nzen
+ * 5. Ausgabe aufrï¿½umen, Zahlenformat nicht 10stellig, nur soviele Stellen, wie nï¿½tig
  * 6. Ausgabe alternativ als HTML-Tabelle
- * 7. Link auf WP bei comdirect anhängen
+ * 7. Link auf WP bei comdirect anhï¿½ngen
 * Auf http://www.finanzen.net/kurse/kurse_historisch.asp gibt es bessere historische Kurse, die enden nicht drei Tage vorher!
 * 
 * Requirements:
-* parallel zu src werden diese Files benötigt:
+* parallel zu src werden diese Files benï¿½tigt:
 * css/theme.blue.css
 * lib/jquery-2.0.3.min.js
 * lib/jquery.tablesorter.min.js
@@ -118,129 +118,6 @@ public class DepotCheck {
 		return url
 	}
 
-	int findFirstMin(ArrayList<StockValue> values) {
-		def minStockValue = new StockValue()
-		minStockValue.relevant = 100000
-		int half = values.size() / 2
-		int minIndex = 0
-		for (int i = 0; i < half; i++) {
-			if (values.get(i).relevant < minStockValue.relevant) {
-				minStockValue = values.get(i)
-				minIndex = i
-			}
-		}
-		return minIndex
-	}
-
-	int findNextMin(ArrayList<StockValue> values, start) {
-		def minStockValue = new StockValue()
-		minStockValue.relevant = 100000
-		int half = values.size()
-		int minIndex
-		for (int i = start+DAYS_TO_NEXT_MIN ; i < half; i++) {
-			if (values.get(i).relevant < minStockValue.relevant) {
-				minStockValue = values.get(i)
-				minIndex = i
-			}
-		}
-		return minIndex
-	}
-
-	double findMaxClose(ArrayList<StockValue> values) {
-		StockValue maxStockValue = new StockValue()
-		maxStockValue.relevant = 0
-		int end = values.size()
-		int half = values.size() / 2
-		for (int i = half; i < end; i++) {
-			if (values.get(i).relevant > maxStockValue.relevant) {
-				maxStockValue = values.get(i)
-			}
-		}
-		return maxStockValue.relevant
-	}
-
-	StockValue findMin(ArrayList<StockValue> values) {
-		double min = 100000.0
-		StockValue minValue = new StockValue()
-		minValue.relevant = min
-		for(StockValue value : values){
-			if (value.relevant <= minValue.relevant)
-				minValue = value
-		}
-		return minValue
-	}
-	
-	StockValue findMax(ArrayList<StockValue> values) {
-		double max = 0.0
-		StockValue maxValue = new StockValue()
-		maxValue.relevant = max
-		for(StockValue value : values){
-			if (value.relevant >= maxValue.relevant)
-				maxValue = value
-		}
-		return maxValue
-	}
-
-	double findMinClose(ArrayList<StockValue> values, int firstMin, int nextMin) {
-		if (values.get(firstMin).relevant < values.get(nextMin).relevant)
-			return values.get(firstMin).relevant
-		else
-			return values.get(nextMin).relevant
-	}
-	
-	Line findDownTrendLine(ArrayList<StockValue> values, int maxIndex, double inc){
-		Date maxDate = values.get(maxIndex).date
-		println "Trying to find downtrend line, start $maxIndex = $maxDate"
-		double currentInc = 0
-		int lastIndex = values.size()-1-IGNORE_LAST_DAYS
-		int valuesCount = lastIndex - maxIndex
-		double tickInc = 0
-		double maxValue = values.get(maxIndex).relevant
-		println "MaxValue = $maxValue"
-		for (int i = 0; i < INCREMENTS; i++) {
-			currentInc += inc
-			tickInc = currentInc / valuesCount
-			//println "TickInc: $tickInc"
-			for (int j = maxIndex+MIN_DISTANCE; j <= lastIndex; j++) {
-				if ((maxValue - (j-maxIndex)*tickInc) < values.get(j).relevant){
-					println "Berï¿½hrung bei $j"
-					println values.get(j)
-					return new Line(maxIndex, maxValue, -1*tickInc,j)
-				}
-			}
-		}
-	}
-
-	Line findUpTrendLine(ArrayList<StockValue> values, int minIndex, double inc){
-		Date minDate = values.get(minIndex).date
-		println "Trying to find uptrend line, start $minIndex = $minDate"
-		double currentInc = 0
-		int lastIndex = values.size()-1-IGNORE_LAST_DAYS
-		int valuesCount = lastIndex - minIndex
-		double tickInc = 0
-		double minValue = values.get(minIndex).relevant
-		for (int i = 0; i < INCREMENTS; i++) {
-			currentInc += inc
-			tickInc = currentInc / valuesCount
-			//println "TickInc: $tickInc"
-			for (int j = minIndex+MIN_DISTANCE; j <= lastIndex; j++) {
-				if ((minValue + (j-minIndex)*tickInc) > values.get(j).relevant){
-					println "Berï¿½hrung bei $j"
-					println values.get(j)
-					return new Line(minIndex, minValue, tickInc,j)
-				}
-			}
-		}
-	}
-
-	boolean isSecondMinTouched(Line line, nextMinIndex){
-		return line.touchIndex == nextMinIndex
-	}
-	
-	boolean isDownTrend(ArrayList<StockValue> values){
-		return (values.get(0).getClose() > 1.05*values.get(values.size-1).getClose())
-	}
-
     void importHistoricalData(ArrayList<Security> securities)
     {    // read from:
         // http://www.comdirect.de/inf/kursdaten/historic.csv?DATETIME_TZ_START_RANGE_FORMATED=11.06.2010&ID_NOTATION=3240907&mask=true&INTERVALL=16&OFFSET=2&modal=false&DATETIME_TZ_END_RANGE_FORMATED=11.06.2015
@@ -278,13 +155,16 @@ public class DepotCheck {
                     println(i + " " + lines[i])
                     String[] dataset = lines[i].split(";")
                     String dateString = dataset[0];
+					if (dataset[4]!=null && dataset[4].length() > 1) {
+						dataset[4] = dataset[4].replaceAll("\\.", "");
+					}
                     Float close = Float.parseFloat(dataset[4].replaceAll(",", "."));
 
                     // lines start this way:
                     //0
-                    //1 ISHARES TECDAX (DE)(WKN: 593397 Börse: LT Lang & Schwarz)
+                    //1 ISHARES TECDAX (DE)(WKN: 593397 Bï¿½rse: LT Lang & Schwarz)
                     //2
-                    //3 Datum;Eröffnung;Hoch;Tief;Schluss;Volumen
+                    //3 Datum;Erï¿½ffnung;Hoch;Tief;Schluss;Volumen
                     //4 13.02.2015;14,384;14,389;14,192;14,235;0,00
 
                     println(i + " " + dateString + ":" + close)
@@ -301,7 +181,7 @@ public class DepotCheck {
 	void importStocks(ArrayList<Security> stocks, File stocksFile){
 		stocksFile.eachLine { line ->
 			String[] lineValues = line.tokenize(';');
-			if (lineValues.length > 1) {
+			if (lineValues.length > 1 && !lineValues[0].equalsIgnoreCase("WKN")) {
 				Security stock = new Security(lineValues);
 				stocks << stock;
 			}
@@ -592,7 +472,7 @@ public class DepotCheck {
         }
 
         File outputFile = new File('.\\depotcheck.csv')
-        outputFile.write("Name"+DEL+"wkn"+DEL+"Depot"+DEL+"buyDate"+DEL+"Kaufkurs"+DEL+"Kurs heute"+DEL+"Perf 3Y"+DEL+"Perf 3M"+DEL+"Perf 1M"+DEL+"Perf since buy")
+        outputFile.write("Name"+DEL+"wkn"+DEL+"Depot"+DEL+"buyDate"+DEL+"Kaufkurs"+DEL+"Kurs heute"+DEL+"Perf 3Y"+DEL+"Perf 3M"+DEL+"Perf 1M"+DEL+"Perf since buy"+DEL+"abs. Diff"+DEL+"Wert")
         outputFile.append("\n");
 
         LocalDate now = LocalDate.now()
@@ -624,8 +504,23 @@ public class DepotCheck {
             double OneMPerf = ((todaysPrice / oneMonthAgo)-1)*100
 			println "fetch since buy"
 			double perfSinceBuy = ((todaysPrice / it.buyPrice)-1)*100
+
+			double absDiffSinceBuy = (todaysPrice * it.amount)-(it.buyPrice * it.amount)
+			double absValue = (todaysPrice*it.amount)
             println "output"
-            outputFile.append(it.name+DEL+"'"+it.wkn+"'"+DEL+it.deposit+DEL+it.buyDate+DEL+formatNumber(it.buyPrice)+DEL+formatNumber(todaysPrice)+DEL+formatNumber(ThreeYPerf)+DEL+formatNumber(ThreeMPerf)+DEL+formatNumber(OneMPerf)+DEL+formatNumber(perfSinceBuy))
+            outputFile.append(
+					it.name+DEL+"'"+
+							it.wkn+"'"+DEL+
+							it.deposit+DEL+
+							it.buyDate+DEL+
+							formatNumber(it.buyPrice)+DEL+
+							formatNumber(todaysPrice)+DEL+
+							formatNumber(ThreeYPerf)+DEL+
+							formatNumber(ThreeMPerf)+DEL+
+							formatNumber(OneMPerf)+DEL+
+							formatNumber(perfSinceBuy)+DEL+
+							formatNumber(absDiffSinceBuy)+DEL+
+							formatNumber(absValue))
             outputFile.append("\n")
         }
 

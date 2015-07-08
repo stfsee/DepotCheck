@@ -5,6 +5,7 @@ class Security {
 	String wkn;
 	String deposit;
 	String name;
+    int amount;
     Float buyPrice;
 	String buyDate;
 	HashMap<String, Float> historicalData;
@@ -13,13 +14,14 @@ class Security {
 	int comdNotationId;
 
     Security(String[] value) {
-		assert value.length == 6
+		//assert value.length == 7
 		this.wkn = value[0]
 		this.deposit = value[1].trim()
 		this.name = value[2].trim()
-		this.buyDate = value[3].trim()
-        this.buyPrice = Float.parseFloat(value[4].trim().replaceAll(",","."))
-		this.comdNotationId = Integer.parseInt(value[5].trim())
+        this.amount = Integer.parseInt(value[3].trim())
+		this.buyDate = value[4].trim()
+        this.buyPrice = Float.parseFloat(value[5].trim().replaceAll(",","."))
+		this.comdNotationId = Integer.parseInt(value[6].trim())
         //2015-12-22, 3.14159
 		historicalData = new HashMap<String, Float>();
 	}
